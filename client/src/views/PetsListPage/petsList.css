@@ -1,0 +1,43 @@
+#petsList {
+    display: flex;
+    justify-content: left;
+    padding: 16px;
+    flex-direction: column;
+}
+
+#petsList .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#petsList h1, #petsList h3 {
+    text-align: left;
+}
+
+#petsList table.customTable {
+    width: 100%;
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #000000;
+    border-style: solid;
+    color: #000000;
+    text-align: left;
+    max-width: 800px;
+}
+
+#petsList table.customTable td, table.customTable th {
+    border-width: 2px;
+    border-color: #000000;
+    border-style: solid;
+    padding: 5px;
+}
+
+#petsList table.customTable .grey {
+    background-color: #efefef;
+}
+
+#petsList table.customTable thead {
+    background-color: #C9C9C9;
+}

@@ -1,0 +1,85 @@
+#petDetail {
+    display: flex;
+    justify-content: left;
+    padding: 16px;
+    flex-direction: column;
+}
+
+#petDetail .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#petDetail .header button {
+    box-shadow: 3px 3px 1px 0px rgba(0,0,0,0.5);
+    height: 40px;
+    border: 1px solid black;
+    background-color: #cf2b27;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+#petDetail .header button:hover {
+    opacity: .9;
+}
+
+#petDetail h1, #petDetail h3 {
+    text-align: left;
+}
+
+#petDetail .container-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+#petDetail .container-info .row {
+    display: flex;
+    width: 100%;
+    text-align: left;
+    padding: 10px 0;
+}
+
+#petDetail .container-info .row .col-title {
+    width: 20%;
+    font-weight: bold;
+}
+
+#petDetail .container-info .row .col ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#petDetail .container-info .likes-container {
+    margin-top: 50px;
+}
+
+#petDetail .container-info .likes-container button {
+    box-shadow: 3px 3px 1px 0px rgba(0,0,0,0.5);
+    height: 40px;
+    border: 1px solid black;
+    background-color: #2d9e0e;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+#petDetail .container-info .likes-container button:hover {
+    opacity: .9;
+}
+
+#petDetail .container-info .likes-container button:disabled {
+    background-color: #e5e5e5;
+    color: #000000;
+    cursor: not-allowed;
+}
+
+#petDetail .container-info .likes-container span {
+    padding-left: 30px;
+}
